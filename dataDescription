@@ -1,0 +1,19 @@
+To find the perfect spot for a juicy business on the pizza planet, I intend to exploit the possibilities 
+given by Foursquare API by following these steps:
+
+1.	Collect the venues data of the whole city (not just restaurants but all venues) by using Foursquare
+
+2.	Collect the localization of the 80 neighbourhoods of Paris
+
+3.	Classify the venues among their respective neighbourhoods
+
+4.	Cluster the neighbourhoods with the k-nearest method : Several values of k will be tested to retain 
+the maximal value of k for which every cluster contains at least two neighbourhoods
+
+5.	Analyse the data and identify the cluster which matches our targeted market (“trendy” means there 
+are a lot of restaurants, bars, cultural life …)  
+
+6.	In this cluster, select the half of the neighbourhoods which concentrate the most trending venues at night
+(a Foursquare request will be used to identify the trendy places)
+
+7.	In this selection of neighbourhoods, identify the one with the least Italian restaurants
