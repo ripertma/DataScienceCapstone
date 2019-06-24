@@ -1,0 +1,12 @@
+Description of the problem
+
+Italian restaurants are at the moment very trendy places in Paris: a lot of concept restaurants which propose Italian cuisine have recently opened in the city and compete to propose the most authentic experience of what an Italian “Trattoria” should be: affordable prices, Italian cooks and waiters, authentic decoration.  For instance, to get a chance to dine at the well-named “Popolare” you must first queue outside for sometimes hours (even in winter). 
+
+Let’s say that I am getting rid of this silly idea of working in data science and that I would like to open such a restaurant in Paris. The question is: in which area of the city should I open my restaurant to maximize my chances of success? 
+
+•	As there are already many restaurants of this kind, I first want to make sure not to open my business in a saturated zone
+
+•	Yet, installing my restaurant in a residential area will not help me that much, as nobody would come by: it needs to be in some trendy area!
+
+•	A further requirement is that I would like to open just for dinner : people are stressed and in a hurry at lunch, while I want to propose some slow food experience (concepts like that sell very well) 
+In short, I want to find the evening-trendy place of Paris where there are the least Italian restaurants to open my restaurant.
